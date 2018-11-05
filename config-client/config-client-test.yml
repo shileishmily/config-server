@@ -1,0 +1,10 @@
+server: 
+  port: 8202 
+spring:
+  profiles: test
+  application: 
+    name: config-client
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: http://localhost:7001/eureka/
